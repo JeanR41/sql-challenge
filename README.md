@@ -3,16 +3,18 @@ Module 9 Challenge
 
 For this project, I designed tables to hold the data from the given CSV files, imported the CSV files into a SQL database, and then answered questions about the data. The project is broken into 3 parts: data modeling, data engineering, and data analysis, respectively.
 
+Files are numbered for easty reference. Follow my process through the steps below while viewing the files in the EmployeeSQL folder from 1 through 5.
+
 Part 1: Data Modeling
-    A. data-modeling.ipynb shows how the csv files were inspected for column names and data types.
-    B. data-modeling-QuickDBD.txt is a record of the schema used in QuickDBD to generate the Entity Relationship Diagram (ERD).
-    C. data-modeling-QuickDBD-diagram.png is the generated ERD.
+    A. 1data-modeling.ipynb shows how the csv files were inspected for column names and data types.
+    B. 2data-modeling-QuickDBD.txt is a record of the schema used in QuickDBD to generate the Entity Relationship Diagram (ERD).
+    C. 3data-modeling-QuickDBD-diagram.png is the generated ERD.
 
 Part 2: Data Engineering
-    In Employees1980s-1990s.sql a table schemata was created for each of the CSV files. Each file was imported into its corresponding SQL table.
+    In 4Employees1980s-1990s.sql a table schemata was created for each of the CSV files. Each file was imported into its corresponding SQL table.
 
 Part 3: Data Analysis
-    In Employees1980s-1990s-Analysis.sql a query was written for each of the below questions:
+    In 5Employees1980s-1990s-Analysis.sql a query was written for each of the below questions:
 
     1. List the employee number, last name, first name, sex, and salary of each employee.
 
